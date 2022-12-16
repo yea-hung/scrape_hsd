@@ -4,4 +4,4 @@ Data from [Homeless Shelter Directory](https://www.homelessshelterdirectory.org/
 
 # Use
 
-Modify `NAME` and `ABB` in `scrape facilities.r` as needed.
+Requires the *rvest* package. Define `NAME` and `ABB` in `scrape_facilities()`.
