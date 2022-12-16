@@ -54,6 +54,7 @@ scrape_hsd<-function(NAME,ABB){
   ff<-do.call(rbind,ff)
   ff<-subset(ff,state==ABB)
   ff<-ff[order(ff$city),]
+  row.names(ff)<-NULL
   
   # return object
   ff
