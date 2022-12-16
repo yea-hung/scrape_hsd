@@ -1,6 +1,6 @@
 # Description
 
-Data from [Homeless Shelter Directory](https://www.homelessshelterdirectory.org/) and code for scraping the data.
+R function for scraping facility data from the [Homeless Shelter Directory](https://www.homelessshelterdirectory.org/).
 
 # Dependencies
 
