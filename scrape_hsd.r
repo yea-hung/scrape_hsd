@@ -59,4 +59,3 @@ scrape_hsd<-function(NAME,ABB){
   ff
   
 }
-wyoming<-scrape_hsd('Wyoming','WY')
