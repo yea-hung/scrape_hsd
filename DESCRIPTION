@@ -1,0 +1,13 @@
+Package: scrapeHSD
+Title: scrapeHSD
+Version: 2025.03.20
+Authors@R: 
+    person(given = 'Yea-Hung', family = 'Chen', 
+       email = 'yea-hung.chen@ucsf.edu', role = c('aut','cre'))
+Description: Scrapes facility data from the Homeless Shelter Directory.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    rvest
