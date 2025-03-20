@@ -64,7 +64,7 @@ scrape_hsd<-function(state_name,state_abbreviation){
   ff<-do.call(rbind,ff)
   ff<-subset(ff,state==state_abbreviation)
   ff<-ff[order(ff$city),]
-  row.state_names(ff)<-NULL
+  row.names(ff)<-NULL
   
   # return object
   ff
