@@ -16,7 +16,7 @@ scrape_hsd<-function(state_name,state_abbreviation){
             gsub(' ','',tolower(state_name)),
             '.html',sep='')
   cc<-rvest::read_html(cc)
-  cc<-cc %>% rvest::html_table()
+  cc<-rvest::html_table(cc)
   cc<-as.data.frame(cc)
   cc<-subset(cc,in.City>0)
   cities<-cc$City
