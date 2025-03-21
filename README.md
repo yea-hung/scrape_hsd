@@ -1,6 +1,6 @@
 # Description
 
-An R package for scraping facility data from the [Homeless Shelter Directory](https://www.homelessshelterdirectory.org/).
+An R package for scraping facility data from the [Homeless Shelter Directory](https://www.homelessshelterdirectory.org/).  
 
 # Installation
 
